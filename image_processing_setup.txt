@@ -1,6 +1,6 @@
 1.create -> "New Project "--->win32 console application
 2.Choose 'All Configurations' ->configuration properties->c/c++->general->Additional Include Directories->paste $(OPENCV_DIR)\include 
-3.Choose "linker "->General->Additional Library Directories->paste $(OPENCV_DIR)\x64\vc12\lib 
+3.Choose "linker "->General->Additional Library Directories->paste $(OPENCV_DIR)\x86\vc11\lib 
 4.Choose "linker"->Input->Additional Dependencies-><edit..>and copy the following directories
 opencv_calib3d2413d.lib
 opencv_contrib2413d.lib
